@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+
+        <activity android:name=".Kentriki_Makedonia"
+            android:exported="false"/>
+        <activity
+            android:name=".periferiakes_enothtes"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity android:name=".Krhth"
+            android:exported="false"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity android:name=".An_Makedonia_Thraki"
+            android:exported="false"/>
+        <activity android:name=".Ditiki_Makedonia"
+            android:exported="false"/>
+        <activity android:name=".Hpeiros"
+            android:exported="false"/>
+        <activity android:name=".Thessalia"
+            android:exported="false"/>
+        <activity android:name=".Dytikh_Ellada"
+            android:exported="false"/>
+        <activity android:name=".Sterea_Ellada"
+            android:exported="false"/>
+        <activity android:name=".Attikh"
+            android:exported="false"/>
+        <activity android:name=".Pelloponnhsos"
+            android:exported="false"/>
+        <activity android:name=".Ionia_Nhsia"
+            android:exported="false"/>
+        <activity android:name=".Boreio_Aigaio"
+            android:exported="false"/>
+        <activity android:name=".Notio_Aigaio"
+            android:exported="false"/>
+
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

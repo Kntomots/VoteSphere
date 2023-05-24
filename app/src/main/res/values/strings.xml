@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="votemapp">Votemapp</string>
+    <string name="my_application">My Application</string>
+    <string name="hello_word">HELLO WORD</string>
+    <string name="go_to_map">Go to map</string>
+</resources>

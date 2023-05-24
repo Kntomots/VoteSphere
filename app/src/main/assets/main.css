@@ -1,0 +1,47 @@
+
+
+polygon {
+  stroke-width: 1;
+  stroke: rgb(32, 6, 2);
+  fill: transparent;
+}
+polygon:hover {
+  fill: rgb(201, 43, 43);
+}
+body{
+	background-color: rgb(32, 100, 131);
+}
+.center {
+    border: 5px solid;
+    display: flex;
+    justify-content: center;
+  }
+text{
+  fill:rgb(255, 255, 255)
+}
+.sideways-lr{
+  writing-mode: sideways-lr;
+}
+#kavalas1#kavalas2polygon:hover{
+  fill: rgb(201, 43, 43);
+
+}
+.poly-group:hover polygon {
+  fill: rgb(201, 43, 43);
+}
+.curved-text span{
+  min-width:0.5em;
+  text-align:center;
+  padding:0;
+  margin:0;
+}
+.hex {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+
+.hex:hover {
+  transform: scale(1.5);
+}
