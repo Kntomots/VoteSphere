@@ -6,6 +6,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.5/xlsx.min.js"></script>
     <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="table.css">
+
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -13,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqvmap/1.5.1/jqvmap.min.css">
 </head>
 <body>
+    <a href="index.html" class="previous">&laquo; Previous</a>
     <a href="index.html">back</a>
     <div id="csv-table"></div>
     <script >
@@ -30,7 +33,7 @@ $(document).ready(function () {
         dataType: 'text',
         success: function (data) {
             const employee_data = data.split(/\r?\n|\r/);
-            let table_data = '<table border="10" cellpadding="10">';
+            let table_data = '<table id="customers" border="10" cellpadding="10">';
             var valid_votes = null;
 
 

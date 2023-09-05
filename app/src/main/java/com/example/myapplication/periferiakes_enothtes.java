@@ -21,7 +21,7 @@ public class periferiakes_enothtes extends AppCompatActivity {
         leftIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(),MainActivity2.class);
+                Intent i = new Intent(getApplicationContext(), StartMenu.class);
                 startActivity(i);
             }
         });

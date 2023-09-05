@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity2 extends AppCompatActivity {
+public class StartMenu extends AppCompatActivity {
 
 
 
@@ -21,11 +21,12 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_3);
         TextView textView = findViewById(R.id.welcome_text_view);
         ImageView leftIcon = findViewById(R.id.left_icon);
+        leftIcon.setVisibility(View.INVISIBLE);
         ImageView rightIcon = findViewById(R.id.right_icon);
         Button map_button = findViewById(R.id.map_button);
         Button testButton = findViewById(R.id.test_button);
         TextView toolbar_title = findViewById(R.id.toolbar_title);
-        toolbar_title.setText("new app");
+        toolbar_title.setText("VoteSphere");
         leftIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,7 +37,7 @@ public class MainActivity2 extends AppCompatActivity {
         rightIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity2.this,"right icon",Toast.LENGTH_SHORT).show();
+                Toast.makeText(StartMenu.this,"right icon",Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(getApplicationContext(),periferiakes_enothtes.class);
                 startActivity(i);
             }
