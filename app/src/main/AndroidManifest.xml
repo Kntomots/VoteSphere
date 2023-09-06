@@ -41,6 +41,9 @@
             android:name=".Hpeiros"
             android:exported="false" />
         <activity
+            android:name=".openBroswer"
+            android:exported="false" />
+        <activity
             android:name=".Thessalia"
             android:exported="false" />
         <activity

@@ -5,6 +5,7 @@ public class item {
     String email;
     int image;
     String text;
+    String link;
 
     public String getText() {
         return text;
@@ -19,6 +20,8 @@ public class item {
         this.image=image;
         this.name=name;
         this.text = text;
+        this.link =link;
+
     }
 
     public String getName() {
@@ -43,5 +46,8 @@ public class item {
 
     public void setImage(int image) {
         this.image = image;
+    }
+    public String getLink() {
+        return link;
     }
 }
