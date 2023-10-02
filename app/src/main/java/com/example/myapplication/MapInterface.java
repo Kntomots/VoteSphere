@@ -8,6 +8,7 @@ import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MapInterface extends AppCompatActivity {
 
@@ -20,7 +21,8 @@ public class MapInterface extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setBuiltInZoomControls(true);
         webView.getSettings().setAllowFileAccessFromFileURLs(true);
-
+        TextView toolbar_title = findViewById(R.id.toolbar_title);
+        toolbar_title.setText("VoteSphere");
 
         webView.getSettings().setDomStorageEnabled(true);
         webView.setWebViewClient(new WebViewClient() {

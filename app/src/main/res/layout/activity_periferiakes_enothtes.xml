@@ -25,7 +25,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/include"/>
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/kentriki_makedonia"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -35,7 +35,7 @@
 
         android:layout_below="@id/an_makedonia"/>
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/ditiki_makedonia"
         android:layout_width="300dp"
         android:layout_marginStart="10dp"
         android:layout_centerHorizontal="true"
@@ -43,13 +43,13 @@
         android:text="ΔΥΤΙΚΗ-ΜΑΚΕΔΟΝΙΑ"
         android:layout_marginBottom="10dp"
         android:background="@drawable/rounded_corners"
-        android:layout_below="@id/button2"/>
+        android:layout_below="@id/kentriki_makedonia"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/hpeiros"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button3"
+        android:layout_below="@id/ditiki_makedonia"
         android:layout_marginStart="10dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
@@ -58,10 +58,10 @@
         android:text="ΗΠΕΙΡΟΣ" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/thessalia"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button4"
+        android:layout_below="@id/hpeiros"
         android:layout_marginStart="10dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
@@ -71,10 +71,10 @@
         android:text="ΘΕΣΣΑΛΙΑ" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/ditiki_ellada"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button5"
+        android:layout_below="@id/thessalia"
         android:layout_marginStart="10dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
@@ -84,10 +84,10 @@
         android:text="ΔΥΤΙΚΗ ΕΛΛΑΔΑ" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/sterea_ellada"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button6"
+        android:layout_below="@id/ditiki_ellada"
         android:layout_marginStart="10dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
@@ -97,10 +97,10 @@
         android:text="ΣΤΕΡΕΑ ΕΛΛΑΔΑ" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/attiki"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button7"
+        android:layout_below="@id/sterea_ellada"
         android:layout_marginStart="10dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
@@ -109,10 +109,10 @@
 
         android:text="ΑΤΤΙΚΗ" />
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/pelloponhsos"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button8"
+        android:layout_below="@id/attiki"
         android:layout_marginStart="10dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
@@ -121,10 +121,10 @@
 
         android:text="ΠΕΛΛΟΠΟΝΝΗΣΟΣ" />
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/ionia_nhsia"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button9"
+        android:layout_below="@id/pelloponhsos"
         android:layout_marginStart="10dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
@@ -133,10 +133,10 @@
 
         android:text="ΙΟΝΙΑ ΝΗΣΙΑ" />
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/boreio_aigaio"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button10"
+        android:layout_below="@id/ionia_nhsia"
         android:layout_marginStart="10dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
@@ -145,10 +145,10 @@
 
         android:text="ΒΟΡΕΙΟ ΑΙΓΑΙΟ" />
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/notio_aigaio"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button11"
+        android:layout_below="@id/boreio_aigaio"
         android:layout_marginStart="10dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
@@ -157,10 +157,10 @@
 
         android:text="ΝΟΤΙΟ ΑΙΓΑΙΟ" />
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/krhth"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button12"
+        android:layout_below="@id/notio_aigaio"
         android:layout_marginStart="10dp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"

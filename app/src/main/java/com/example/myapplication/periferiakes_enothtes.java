@@ -34,7 +34,7 @@ public class periferiakes_enothtes extends AppCompatActivity {
             Intent i = new Intent(getApplicationContext(),An_Makedonia_Thraki.class);
             startActivity(i);
         });
-        b2= (findViewById(R.id.button2));
+        b2= (findViewById(R.id.kentriki_makedonia));
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,7 +42,7 @@ public class periferiakes_enothtes extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        b3= (findViewById(R.id.button3));
+        b3= (findViewById(R.id.ditiki_makedonia));
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,7 +50,7 @@ public class periferiakes_enothtes extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        b4= (findViewById(R.id.button4));
+        b4= (findViewById(R.id.hpeiros));
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,7 +58,7 @@ public class periferiakes_enothtes extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        b5= (findViewById(R.id.button5));
+        b5= (findViewById(R.id.thessalia));
         b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -66,7 +66,7 @@ public class periferiakes_enothtes extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        b6= (findViewById(R.id.button6));
+        b6= (findViewById(R.id.ditiki_ellada));
         b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,7 +74,7 @@ public class periferiakes_enothtes extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        b7= (findViewById(R.id.button7));
+        b7= (findViewById(R.id.attiki));
         b7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -82,7 +82,7 @@ public class periferiakes_enothtes extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        b8= (findViewById(R.id.button8));
+        b8= (findViewById(R.id.pelloponhsos));
         b8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -90,7 +90,7 @@ public class periferiakes_enothtes extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        b9= (findViewById(R.id.button9));
+        b9= (findViewById(R.id.ionia_nhsia));
         b9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -98,7 +98,7 @@ public class periferiakes_enothtes extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        b10= (findViewById(R.id.button10));
+        b10= (findViewById(R.id.boreio_aigaio));
         b10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -106,7 +106,7 @@ public class periferiakes_enothtes extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        b11= (findViewById(R.id.button11));
+        b11= (findViewById(R.id.notio_aigaio));
         b11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -114,7 +114,7 @@ public class periferiakes_enothtes extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        b12= (findViewById(R.id.button12));
+        b12= (findViewById(R.id.krhth));
         b12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -122,7 +122,7 @@ public class periferiakes_enothtes extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        b13= (findViewById(R.id.button13));
+
 
     }
 }

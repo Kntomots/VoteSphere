@@ -12,6 +12,8 @@ import androidx.recyclerview.widget.RecyclerView;
 public class MyViewHolder extends RecyclerView.ViewHolder {
     ImageView imageView;
     Button buttonView;
+    String link;
+
     WebView webView;
     TextView nameView,emailView,textView;
     public MyViewHolder(@NonNull View itemView) {
@@ -22,6 +24,10 @@ public class MyViewHolder extends RecyclerView.ViewHolder {
         textView= itemView.findViewById(R.id.text2);
         buttonView = itemView.findViewById(R.id.showButton);
         webView = itemView.findViewById(R.id.webview);
+
+
+
+
 
 
 

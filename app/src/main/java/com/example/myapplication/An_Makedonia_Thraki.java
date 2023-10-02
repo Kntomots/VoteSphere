@@ -36,11 +36,14 @@ public class An_Makedonia_Thraki extends AppCompatActivity{
 
         RecyclerView recyclerView =findViewById(R.id.recyclerview);
         List<item> items =new ArrayList<item>();
+        /*
         items.add(new item("ΝΟΜΟΣ ΞΑΝΘΗΣ", "ntomo", R.drawable.ksanthi, ""));
         items.add(new item("ΝΟΜΟΣ ΔΡΑΜΑΣ","ntomo",R.drawable.drama,""));
         items.add(new item("ΝΟΜΟΣ ΕΒΡΟΥ","ntomo",R.drawable.evros,""));
         items.add(new item("ΝΟΜΟΣ ΚΑΒΑΛΑΣ","ntomo",R.drawable.kavala,""));
         items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,""));
+
+         */
 
 
 

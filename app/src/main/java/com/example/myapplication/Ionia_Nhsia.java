@@ -27,7 +27,9 @@ public class Ionia_Nhsia extends AppCompatActivity {
         });
 
         RecyclerView recyclerView =findViewById(R.id.recyclerview);
+
         List<item> items =new ArrayList<item>();
+        /*
         item item = new item("ΝΟΜΟΣ ΞΑΝΘΗΣ", "ntomo", R.drawable.ksanthi, "ΜΑΚΕΔΟΝΙΑ");
         items.add(item);
         items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"ΕΥΡΩΠΗ"));
@@ -36,6 +38,8 @@ public class Ionia_Nhsia extends AppCompatActivity {
         items.add(new item("ΝΟΜΟΣ ΣΕΡΡΩΝ","ntomo",R.drawable.serres,""));
         items.add(new item("ΝΟΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ","ntomo",R.drawable.thessaloniki,""));
         items.add(new item("ΝΟΜΟΣ ΧΑΛΚΙΔΙΚΗΣ","ntomo",R.drawable.xalkidiki,""));
+
+         */
 
 
 

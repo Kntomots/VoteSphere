@@ -15,7 +15,7 @@ public class item {
         this.text = text;
     }
 
-    public item(String name, String email, int image , String text){
+    public item(String name, String email, int image , String text ,String link){
         this.email=email;
         this.image=image;
         this.name=name;
