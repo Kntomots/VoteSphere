@@ -11,6 +11,8 @@ import android.webkit.WebViewClient;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
@@ -32,7 +34,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         holder.nameView.setText(items.get(position).getName());
         holder.emailView.setText(items.get(position).getEmail());
-        holder.imageView.setImageResource(items.get(position).getImage());
+        Glide.with(this.context).load(items.get(position).getImage()).into(holder.imageView);
+
         holder.textView.setText(items.get((position)).getText());
         holder.link = items.get(position).getLink();
 

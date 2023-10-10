@@ -28,10 +28,16 @@ public class Attikh extends AppCompatActivity {
 
         RecyclerView recyclerView =findViewById(R.id.recyclerview);
         List<item> items =new ArrayList<item>();
+        /*
         item item = new item("ΝΟΜΟΣ ΞΑΝΘΗΣ", "ntomo", R.drawable.ksanthi, "ΜΑΚΕΔΟΝΙΑ","https://www.wikipedia.org/");
 
         items.add(item);
 
+        items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"","https://el.wikipedia.org/wiki/%CE%92%CF%8C%CE%BB%CE%BF%CF%82"));
+        items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"","https://el.wikipedia.org/wiki/%CE%92%CF%8C%CE%BB%CE%BF%CF%82"));
+        items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"","https://el.wikipedia.org/wiki/%CE%92%CF%8C%CE%BB%CE%BF%CF%82"));
+        items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"","https://el.wikipedia.org/wiki/%CE%92%CF%8C%CE%BB%CE%BF%CF%82"));
+        items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"","https://el.wikipedia.org/wiki/%CE%92%CF%8C%CE%BB%CE%BF%CF%82"));
         items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"","https://el.wikipedia.org/wiki/%CE%92%CF%8C%CE%BB%CE%BF%CF%82"));
         /*
         items.add(new item("ΝΟΜΟΣ ΔΡΑΜΑΣ","ntomo",R.drawable.drama,""));

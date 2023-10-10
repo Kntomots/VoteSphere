@@ -7,16 +7,20 @@
     android:layout_height="wrap_content"
 
     >
-
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/parentRelative"
+        android:layout_below="@+id/text2">
 
         <ImageView
             android:id="@+id/imageview"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="10dp"
             android:adjustViewBounds="true"
-            android:scaleType="centerInside"
+            android:scaleType="centerCrop"
 
             />
 
@@ -24,9 +28,9 @@
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_toEndOf="@id/imageview"
         android:textColor="@color/black"
         android:textSize="20dp"
+        android:layout_alignParentTop="true"
         tools:text="Name" />
 
     <TextView
@@ -34,7 +38,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/name"
-        android:layout_toEndOf="@id/imageview"
         android:textColor="@color/black"
         tools:text="emial@email.com" />
 
@@ -47,26 +50,28 @@
         android:layout_marginTop="10dp"
         android:background="#DAD8D8"
         android:orientation="horizontal" />
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below= "@id/email"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="50dp"
+        android:text="Προβολή"
+
+        />
+    </RelativeLayout>
 
     <TextView
         android:id="@+id/text2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/linearLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="0dp"
         android:fontFamily="sans-serif"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-    <Button
-        android:id="@+id/showButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below= "@id/email"
-        android:layout_alignParentRight="true"
-        android:text="Προβολή"
 
-        />
 </RelativeLayout>
 

@@ -3,7 +3,7 @@ package com.example.myapplication;
 public class item {
     String name;
     String email;
-    int image;
+    String image;
     String text;
     String link;
 
@@ -15,7 +15,7 @@ public class item {
         this.text = text;
     }
 
-    public item(String name, String email, int image , String text ,String link){
+    public item(String name, String email, String image , String text ,String link){
         this.email=email;
         this.image=image;
         this.name=name;
@@ -40,11 +40,11 @@ public class item {
         this.email = email;
     }
 
-    public int getImage() {
+    public String getImage() {
         return image;
     }
 
-    public void setImage(int image) {
+    public void setImage(String image) {
         this.image = image;
     }
     public String getLink() {

@@ -11,13 +11,17 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.squareup.picasso.Picasso;
+
 
 public class StartMenu extends AppCompatActivity {
 
+    private ImageView imageView;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        String imageUrl = "https://example.com/your_image.jpg";
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_3);
@@ -28,6 +32,7 @@ public class StartMenu extends AppCompatActivity {
         Button map_button = findViewById(R.id.map_button);
         TextView toolbar_title = findViewById(R.id.toolbar_title);
         toolbar_title.setText("VoteSphere");
+        //Picasso.get().load(imageUrl).into(imageView);
 
 
         textView.setText(Html.fromHtml("<b>Οι εκλογές αποτελούν ένα θεμελιώδες κομμάτι του δημοκρατικού συστήματος, αντιπροσωπεύοντας τη φωνή του λαού στη διαμόρφωση της πολιτικής κατεύθυνσης. " +
