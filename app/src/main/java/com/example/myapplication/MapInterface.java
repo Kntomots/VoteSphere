@@ -28,7 +28,7 @@ public class MapInterface extends AppCompatActivity {
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                if (url.startsWith("file:///android_asset/MainActivity2.java")) {
+                if (url.startsWith("file:///android_asset/Start_Menu.java")) {
                     // Open the NewActivity when a specific link is clicked
                     startActivity(new Intent(getApplicationContext(), StartMenu.class));
                     return true; // Return true to prevent the link from loading in the WebView
@@ -40,10 +40,8 @@ public class MapInterface extends AppCompatActivity {
             }
         });
         webView.loadUrl("file:///android_asset/index.html");
-        ImageView rightButton = findViewById(R.id.right_icon);
         ImageView leftButton = findViewById(R.id.left_icon);
         leftButton.setVisibility(View.INVISIBLE);
-        rightButton.setVisibility(View.INVISIBLE);
 
 
 

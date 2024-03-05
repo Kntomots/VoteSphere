@@ -52,10 +52,8 @@ public class openBroswer extends AppCompatActivity {
                 }
             });
             webView.loadUrl(link);
-            ImageView rightButton = findViewById(R.id.right_icon);
             ImageView leftButton = findViewById(R.id.left_icon);
             leftButton.setVisibility(View.INVISIBLE);
-            rightButton.setVisibility(View.INVISIBLE);
         }
         else {
                 // No internet connection, display a toast message
