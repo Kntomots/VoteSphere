@@ -28,17 +28,9 @@ public class Notio_Aigaio extends AppCompatActivity {
 
         RecyclerView recyclerView =findViewById(R.id.recyclerview);
         List<item> items =new ArrayList<item>();
-        /*
-        item item = new item("ΝΟΜΟΣ ΞΑΝΘΗΣ", "ntomo", R.drawable.ksanthi, "ΜΑΚΕΔΟΝΙΑ");
-        items.add(item);
-        items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"ΕΥΡΩΠΗ"));
-        items.add(new item("ΝΟΜΟΣ ΔΡΑΜΑΣ","ntomo",R.drawable.drama,""));
-        items.add(new item("ΝΟΜΟΣ ΚΑΒΑΛΑΣ","ntomo",R.drawable.kavala,""));
-        items.add(new item("ΝΟΜΟΣ ΣΕΡΡΩΝ","ntomo",R.drawable.serres,""));
-        items.add(new item("ΝΟΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ","ntomo",R.drawable.thessaloniki,""));
-        items.add(new item("ΝΟΜΟΣ ΧΑΛΚΙΔΙΚΗΣ","ntomo",R.drawable.xalkidiki,""));
+        items.add(new item("", "","https://www.visitgreece.gr/images/1743x752/jpg/files/i_1223762770_santorini-oia_1743x752.webp", "ΝΟΜΟΣ ΚΥΚΛΑΔΩΝ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%9A%CF%85%CE%BA%CE%BB%CE%AC%CE%B4%CF%89%CE%BD"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/i_625273002_symi_1743x752.webp","ΝΟΜΟΣ ΔΩΔΕΚΑΝΗΣΟΥ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%94%CF%89%CE%B4%CE%B5%CE%BA%CE%B1%CE%BD%CE%AE%CF%83%CE%BF%CF%85"));
 
-         */
 
 
 

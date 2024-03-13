@@ -28,17 +28,10 @@ public class Thessalia extends AppCompatActivity {
 
         RecyclerView recyclerView =findViewById(R.id.recyclerview);
         List<item> items =new ArrayList<item>();
-        /*
-        item item = new item("ΝΟΜΟΣ ΞΑΝΘΗΣ", "ntomo", R.drawable.ksanthi, "ΜΑΚΕΔΟΝΙΑ");
-        items.add(item);
-        items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"ΕΥΡΩΠΗ"));
-        items.add(new item("ΝΟΜΟΣ ΔΡΑΜΑΣ","ntomo",R.drawable.drama,""));
-        items.add(new item("ΝΟΜΟΣ ΚΑΒΑΛΑΣ","ntomo",R.drawable.kavala,""));
-        items.add(new item("ΝΟΜΟΣ ΣΕΡΡΩΝ","ntomo",R.drawable.serres,""));
-        items.add(new item("ΝΟΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ","ntomo",R.drawable.thessaloniki,""));
-        items.add(new item("ΝΟΜΟΣ ΧΑΛΚΙΔΙΚΗΣ","ntomo",R.drawable.xalkidiki,""));
-
-         */
+        items.add(new item("", "","https://www.visitgreece.gr/images/1743x752/jpg/files/skoulas_15_karditsa_1743x752.webp", "ΝΟΜΟΣ ΚΑΡΔΙΤΣΑΣ","https://el.wikipedia.org/wiki/%CE%A0%CE%B5%CF%81%CE%B9%CF%86%CE%B5%CF%81%CE%B5%CE%B9%CE%B1%CE%BA%CE%AE_%CE%95%CE%BD%CF%8C%CF%84%CE%B7%CF%84%CE%B1_%CE%9A%CE%B1%CF%81%CE%B4%CE%AF%CF%84%CF%83%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/s_662787526_larisa_1743x752.webp","ΝΟΜΟΣ ΛΑΡΙΣΑΣ","https://el.wikipedia.org/wiki/%CE%A0%CE%B5%CF%81%CE%B9%CF%86%CE%B5%CF%81%CE%B5%CE%B9%CE%B1%CE%BA%CE%AE_%CE%95%CE%BD%CF%8C%CF%84%CE%B7%CF%84%CE%B1_%CE%9B%CE%AC%CF%81%CE%B9%CF%83%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/merakos_001_pelion-makrynitsa_1743x752.webp","ΝΟΜΟΣ ΜΑΓΝΗΣΙΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%9C%CE%B1%CE%B3%CE%BD%CE%B7%CF%83%CE%AF%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/s_1033835188_trikala_1743x752.webp","ΝΟΜΟΣ ΤΡΙΚΑΛΩΝ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%A4%CF%81%CE%B9%CE%BA%CE%AC%CE%BB%CF%89%CE%BD"));
 
 
 

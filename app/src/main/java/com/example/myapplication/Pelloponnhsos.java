@@ -28,17 +28,13 @@ public class Pelloponnhsos extends AppCompatActivity {
 
         RecyclerView recyclerView =findViewById(R.id.recyclerview);
         List<item> items =new ArrayList<item>();
-        /*
-        item item = new item("ΝΟΜΟΣ ΞΑΝΘΗΣ", "ntomo", R.drawable.ksanthi, "ΜΑΚΕΔΟΝΙΑ");
-        items.add(item);
-        items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"ΕΥΡΩΠΗ"));
-        items.add(new item("ΝΟΜΟΣ ΔΡΑΜΑΣ","ntomo",R.drawable.drama,""));
-        items.add(new item("ΝΟΜΟΣ ΚΑΒΑΛΑΣ","ntomo",R.drawable.kavala,""));
-        items.add(new item("ΝΟΜΟΣ ΣΕΡΡΩΝ","ntomo",R.drawable.serres,""));
-        items.add(new item("ΝΟΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ","ntomo",R.drawable.thessaloniki,""));
-        items.add(new item("ΝΟΜΟΣ ΧΑΛΚΙΔΙΚΗΣ","ntomo",R.drawable.xalkidiki,""));
+        items.add(new item("", "","https://www.visitgreece.gr/images/1743x752/jpg/files/s_414682924_argolida-epidaurus_1743x752.webp", "ΝΟΜΟΣ ΑΡΓΟΛΙΔΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%91%CF%81%CE%B3%CE%BF%CE%BB%CE%AF%CE%B4%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/s_1855879771_tripoli_1743x752.webp","ΝΟΜΟΣ ΑΡΚΑΔΙΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%91%CF%81%CE%BA%CE%B1%CE%B4%CE%AF%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/i_859838370_korinthos_1743x752.webp","ΝΟΜΟΣ ΚΟΡΙΝΘΙΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%9A%CE%BF%CF%81%CE%B9%CE%BD%CE%B8%CE%AF%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1750x680/jpg/files/i_1034467846_monuments-mystras_1750x680.webp","ΝΟΜΟΣ ΛΑΚΩΝΙΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%9B%CE%B1%CE%BA%CF%89%CE%BD%CE%AF%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/s_1211503387_kalamata_1743x752.webp","ΝΟΜΟΣ ΜΕΣΣΗΝΙΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%9C%CE%B5%CF%83%CF%83%CE%B7%CE%BD%CE%AF%CE%B1%CF%82"));
 
-         */
+
 
 
 

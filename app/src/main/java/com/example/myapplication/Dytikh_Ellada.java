@@ -28,18 +28,12 @@ public class Dytikh_Ellada extends AppCompatActivity {
 
         RecyclerView recyclerView =findViewById(R.id.recyclerview);
         List<item> items =new ArrayList<item>();
-        /*
-        item item = new item("ΝΟΜΟΣ ΞΑΝΘΗΣ", "ntomo", R.drawable.ksanthi, "ΜΑΚΕΔΟΝΙΑ");
-        items.add(item);
-        items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"ΕΥΡΩΠΗ"));
-        items.add(new item("ΝΟΜΟΣ ΔΡΑΜΑΣ","ntomo",R.drawable.drama,""));
-        items.add(new item("ΝΟΜΟΣ ΚΑΒΑΛΑΣ","ntomo",R.drawable.kavala,""));
-        items.add(new item("ΝΟΜΟΣ ΣΕΡΡΩΝ","ntomo",R.drawable.serres,""));
-        items.add(new item("ΝΟΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ","ntomo",R.drawable.thessaloniki,""));
-        items.add(new item("ΝΟΜΟΣ ΧΑΛΚΙΔΙΚΗΣ","ntomo",R.drawable.xalkidiki,""));
+        items.add(new item("", "","https://web-greece.gr/wp-content/uploads/2015/11/nafpaktos_aitoloakarnania3.jpg", "ΝΟΜΟΣ ΑΙΤΩΛΟΑΚΑΡΝΑΝΙΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%91%CE%B9%CF%84%CF%89%CE%BB%CE%BF%CE%B1%CE%BA%CE%B1%CF%81%CE%BD%CE%B1%CE%BD%CE%AF%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/i_477685508_patra_1743x752.webp","ΝΟΜΟΣ ΑΧΑΙΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%91%CF%87%CE%B1%CE%90%CE%B1%CF%82"));
+        items.add(new item("","","https://www.discovergreece.com/sites/default/files/styles/default/public/migrated/the_tranquil_waters_of_kaiafas_lake.jpeg","ΝΟΜΟΣ ΗΛΕΙΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%97%CE%BB%CE%B5%CE%AF%CE%B1%CF%82"));
 
 
-         */
+
 
 
 

@@ -29,17 +29,12 @@ public class Hpeiros extends AppCompatActivity {
         RecyclerView recyclerView =findViewById(R.id.recyclerview);
 
         List<item> items =new ArrayList<item>();
-        /*
-        item item = new item("ΝΟΜΟΣ ΞΑΝΘΗΣ", "ntomo", R.drawable.ksanthi, "ΜΑΚΕΔΟΝΙΑ");
-        items.add(item);
-        items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"ΕΥΡΩΠΗ"));
-        items.add(new item("ΝΟΜΟΣ ΔΡΑΜΑΣ","ntomo",R.drawable.drama,""));
-        items.add(new item("ΝΟΜΟΣ ΚΑΒΑΛΑΣ","ntomo",R.drawable.kavala,""));
-        items.add(new item("ΝΟΜΟΣ ΣΕΡΡΩΝ","ntomo",R.drawable.serres,""));
-        items.add(new item("ΝΟΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ","ntomo",R.drawable.thessaloniki,""));
-        items.add(new item("ΝΟΜΟΣ ΧΑΛΚΙΔΙΚΗΣ","ntomo",R.drawable.xalkidiki,""));
+        items.add(new item("", "","https://www.visitgreece.gr/images/1743x752/jpg/files/s_1209505615_arta-bridge_1743x752.webp", "ΝΟΜΟΣ ΑΡΤΑΣ","https://el.wikipedia.org/wiki/%CE%A0%CE%B5%CF%81%CE%B9%CF%86%CE%B5%CF%81%CE%B5%CE%B9%CE%B1%CE%BA%CE%AE_%CE%95%CE%BD%CF%8C%CF%84%CE%B7%CF%84%CE%B1_%CE%86%CF%81%CF%84%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/s_1499080592_syvota-header_1743x752.webp","ΝΟΜΟΣ ΘΕΣΠΡΩΤΙΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%98%CE%B5%CF%83%CF%80%CF%81%CF%89%CF%84%CE%AF%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/s_118654084_ioannina_1743x752.webp","ΝΟΜΟΣ ΙΩΑΝΝΙΝΩΝ","https://el.wikipedia.org/wiki/%CE%A0%CE%B5%CF%81%CE%B9%CF%86%CE%B5%CF%81%CE%B5%CE%B9%CE%B1%CE%BA%CE%AE_%CE%95%CE%BD%CF%8C%CF%84%CE%B7%CF%84%CE%B1_%CE%99%CF%89%CE%B1%CE%BD%CE%BD%CE%AF%CE%BD%CF%89%CE%BD"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/s_1117055756_preveza-header_1743x752.webp","ΝΟΜΟΣ ΠΡΕΒΕΖΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%A0%CF%81%CE%AD%CE%B2%CE%B5%CE%B6%CE%B1%CF%82"));
 
-         */
+
 
 
 

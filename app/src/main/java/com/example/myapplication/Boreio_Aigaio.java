@@ -28,18 +28,9 @@ public class Boreio_Aigaio extends AppCompatActivity {
 
         RecyclerView recyclerView =findViewById(R.id.recyclerview);
         List<item> items =new ArrayList<item>();
-        /*
-        item item = new item("ΝΟΜΟΣ ΞΑΝΘΗΣ", "ntomo", R.drawable.ksanthi, "ΜΑΚΕΔΟΝΙΑ");
-        items.add(item);
-        items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"ΕΥΡΩΠΗ"));
-        items.add(new item("ΝΟΜΟΣ ΔΡΑΜΑΣ","ntomo",R.drawable.drama,""));
-        items.add(new item("ΝΟΜΟΣ ΚΑΒΑΛΑΣ","ntomo",R.drawable.kavala,""));
-        items.add(new item("ΝΟΜΟΣ ΣΕΡΡΩΝ","ntomo",R.drawable.serres,""));
-        items.add(new item("ΝΟΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ","ntomo",R.drawable.thessaloniki,""));
-        items.add(new item("ΝΟΜΟΣ ΧΑΛΚΙΔΙΚΗΣ","ntomo",R.drawable.xalkidiki,""));
-
-
-         */
+        items.add(new item("", "","https://www.visitgreece.gr/images/1743x752/jpg/files/i_1162556431_lesvos_1743x752.webp", "ΝΟΜΟΣ ΛΕΣΒΟΥ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%9B%CE%AD%CF%83%CE%B2%CE%BF%CF%85"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/s_115044340_samos-hereon_1743x752.webp","ΝΟΜΟΣ ΣΑΜΟΥ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%A3%CE%AC%CE%BC%CE%BF%CF%85"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/filippini_33_chios-mavravolia_1743x752.webp","ΝΟΜΟΣ ΧΙΟΥ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%A7%CE%AF%CE%BF%CF%85"));
 
 
 

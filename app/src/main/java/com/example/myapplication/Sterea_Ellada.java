@@ -28,17 +28,11 @@ public class Sterea_Ellada extends AppCompatActivity {
 
         RecyclerView recyclerView =findViewById(R.id.recyclerview);
         List<item> items =new ArrayList<item>();
-        /*
-        item item = new item("ΝΟΜΟΣ ΞΑΝΘΗΣ", "ntomo", R.drawable.ksanthi, "ΜΑΚΕΔΟΝΙΑ");
-        items.add(item);
-        items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"ΕΥΡΩΠΗ"));
-        items.add(new item("ΝΟΜΟΣ ΔΡΑΜΑΣ","ntomo",R.drawable.drama,""));
-        items.add(new item("ΝΟΜΟΣ ΚΑΒΑΛΑΣ","ntomo",R.drawable.kavala,""));
-        items.add(new item("ΝΟΜΟΣ ΣΕΡΡΩΝ","ntomo",R.drawable.serres,""));
-        items.add(new item("ΝΟΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ","ntomo",R.drawable.thessaloniki,""));
-        items.add(new item("ΝΟΜΟΣ ΧΑΛΚΙΔΙΚΗΣ","ntomo",R.drawable.xalkidiki,""));
-
-         */
+        items.add(new item("", "","https://www.visitgreece.gr/images/1743x752/jpg/files/merakos_4326_viotia-arachova_1743x752.webp", "ΝΟΜΟΣ ΒΟΙΩΤΙΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%92%CE%BF%CE%B9%CF%89%CF%84%CE%AF%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/s_1784476238_evia-chalkida_1743x752.webp","ΝΟΜΟΣ ΕΥΒΟΙΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%95%CF%85%CE%B2%CE%BF%CE%AF%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1750x680/jpg/files/s_753863263_evritaniavillages_1750x680.webp","ΝΟΜΟΣ ΕΥΡΥΤΑΝΙΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%95%CF%85%CF%81%CF%85%CF%84%CE%B1%CE%BD%CE%AF%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/s_1499761625_lamia_1743x752.webp","ΝΟΜΟΣ ΦΘΙΩΤΙΔΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%A6%CE%B8%CE%B9%CF%8E%CF%84%CE%B9%CE%B4%CE%B1%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/i_137887447_galaxidi_1743x752.webp","ΝΟΜΟΣ ΦΩΚΙΔΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%A6%CF%89%CE%BA%CE%AF%CE%B4%CE%B1%CF%82"));
 
 
 

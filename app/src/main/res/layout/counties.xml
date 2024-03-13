@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity3"
+    android:background="@drawable/backgroundimage">
     <include
         android:id="@+id/include"
         layout="@layout/toolbar" />

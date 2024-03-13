@@ -28,17 +28,11 @@ public class Ditiki_Makedonia extends AppCompatActivity {
 
         RecyclerView recyclerView =findViewById(R.id.recyclerview);
         List<item> items =new ArrayList<item>();
-        /*
-        item item = new item("ΝΟΜΟΣ ΞΑΝΘΗΣ", "ntomo", R.drawable.ksanthi, "ΜΑΚΕΔΟΝΙΑ");
-        items.add(item);
-        items.add(new item("ΝΟΜΟΣ ΡΟΔΟΠΗΣ","ntomo",R.drawable.rodopis,"ΕΥΡΩΠΗ"));
-        items.add(new item("ΝΟΜΟΣ ΔΡΑΜΑΣ","ntomo",R.drawable.drama,""));
-        items.add(new item("ΝΟΜΟΣ ΚΑΒΑΛΑΣ","ntomo",R.drawable.kavala,""));
-        items.add(new item("ΝΟΜΟΣ ΣΕΡΡΩΝ","ntomo",R.drawable.serres,""));
-        items.add(new item("ΝΟΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ","ntomo",R.drawable.thessaloniki,""));
-        items.add(new item("ΝΟΜΟΣ ΧΑΛΚΙΔΙΚΗΣ","ntomo",R.drawable.xalkidiki,""));
+        items.add(new item("", "","https://www.visitgreece.gr/images/1743x752/jpg/files/s_1558584275_grevena-azizagabridge_1743x752.webp", "ΝΟΜΟΣ ΓΡΕΒΕΝΩΝ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%93%CF%81%CE%B5%CE%B2%CE%B5%CE%BD%CF%8E%CE%BD"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/merakos_03_kastoria_1743x752.webp","ΝΟΜΟΣ ΚΑΣΤΟΡΙΑΣ","https://el.wikipedia.org/wiki/%CE%A0%CE%B5%CF%81%CE%B9%CF%86%CE%B5%CF%81%CE%B5%CE%B9%CE%B1%CE%BA%CE%AE_%CE%95%CE%BD%CF%8C%CF%84%CE%B7%CF%84%CE%B1_%CE%9A%CE%B1%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%AC%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/merakos_01_kozani_1743x752.webp","ΝΟΜΟΣ ΚΟΖΑΝΗΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%9A%CE%BF%CE%B6%CE%AC%CE%BD%CE%B7%CF%82"));
+        items.add(new item("","","https://www.visitgreece.gr/images/1743x752/jpg/files/s_1554872486_florina_1743x752.webp","ΝΟΜΟΣ ΦΛΩΡΙΝΑΣ","https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%A6%CE%BB%CF%8E%CF%81%CE%B9%CE%BD%CE%B1%CF%82"));
 
-         */
 
 
 
